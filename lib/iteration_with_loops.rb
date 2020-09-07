@@ -3,10 +3,10 @@ def find_min_in_nested_arrays(src)
   row_index = 0
   while row_index < src.count do
     element_index = 0
-    while element_index < src[element_index].count do
+    while element_index < src[row_index].count do
       smallest_number = src[row_index][element_index]
       if src[row_index][element_index] <
-      new_array.push() unless
+      new_array.push(smallest_number) unless smallest_number
       end
       element_index += 1    
     end
